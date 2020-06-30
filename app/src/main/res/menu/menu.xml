@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nhcm_menu_set_catalog_location"
+        android:title="Set Catalog Location" />
+    <item android:id="@+id/nhcm_menu_import"
+        android:title="Import" />
+    <item android:id="@+id/nhcm_menu_search"
+        android:title="Search/Filter" />
+    <group android:id="@+id/nhcm_menu_group_view">
+        <item android:id="@+id/nhcm_menu_group_view_covers"
+            android:title="View Mode: Covers" />
+        <item android:id="@+id/nhcm_menu_group_view_details"
+            android:title="View Mode: Details" />
+    </group>
+</menu>
